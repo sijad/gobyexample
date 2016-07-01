@@ -1,8 +1,11 @@
-## Go by Example
+# Prsian Go by Example
 
-Content and build toolchain for [Go by Example](https://gobyexample.com),
+Content and build toolchain for Persian Go by Example,
 a site that teaches Go via annotated example programs.
 
+## Credits
+
+All credits goes to [Mark McGranaghan](https://github.com/mmcgrana).
 
 ### Overview
 
