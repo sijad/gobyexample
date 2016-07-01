@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Interfaces</title>
@@ -97,7 +97,7 @@ signatures.</p>
         
         <tr>
           <td class="docs">
-            <p>To implement an interface in Go, we just need to
+            <p>To implement an interface in Go، we just need to
 implement all the methods in the interface. Here we
 implement <code>geometry</code> on <code>rect</code>s.</p>
 
@@ -135,7 +135,7 @@ implement <code>geometry</code> on <code>rect</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>If a variable has an interface type, then we can call
+            <p>If a variable has an interface type، then we can call
 methods that are in the named interface. Here&rsquo;s a
 generic <code>measure</code> function taking advantage of this
 to work on any <code>geometry</code>.</p>
@@ -209,7 +209,7 @@ these structs as arguments to <code>measure</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>To learn more about Go&rsquo;s interfaces, check out this
+            <p>To learn more about Go&rsquo;s interfaces، check out this
 <a href="http://jordanorelli.tumblr.com/post/32665860244/how-to-use-interfaces-in-go">great blog post</a>.</p>
 
           </td>
@@ -223,7 +223,7 @@ these structs as arguments to <code>measure</code>.</p>
       
       
       <p class="next">
-        Next example: <a href="errors">Errors</a>.
+        مثال بعد: <a href="errors">Errors</a>.
       </p>
       
       <p class="footer">

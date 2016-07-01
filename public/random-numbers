@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Random Numbers</title>
@@ -76,7 +76,7 @@ generation.</p>
         
         <tr>
           <td class="docs">
-            <p>For example, <code>rand.Intn</code> returns a random <code>int</code> n,
+            <p>For example، <code>rand.Intn</code> returns a random <code>int</code> n،
 <code>0 &lt;= n &lt; 100</code>.</p>
 
           </td>
@@ -92,7 +92,7 @@ generation.</p>
         
         <tr>
           <td class="docs">
-            <p><code>rand.Float64</code> returns a <code>float64</code> <code>f</code>,
+            <p><code>rand.Float64</code> returns a <code>float64</code> <code>f</code>،
 <code>0.0 &lt;= f &lt; 1.0</code>.</p>
 
           </td>
@@ -107,7 +107,7 @@ generation.</p>
         <tr>
           <td class="docs">
             <p>This can be used to generate random floats in
-other ranges, for example <code>5.0 &lt;= f' &lt; 10.0</code>.</p>
+other ranges، for example <code>5.0 &lt;= f' &lt; 10.0</code>.</p>
 
           </td>
           <td class="code leading">
@@ -122,11 +122,11 @@ other ranges, for example <code>5.0 &lt;= f' &lt; 10.0</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>The default number generator is deterministic, so it&rsquo;ll
+            <p>The default number generator is deterministic، so it&rsquo;ll
 produce the same sequence of numbers each time by default.
-To produce varying sequences, give it a seed that changes.
+To produce varying sequences، give it a seed that changes.
 Note that this is not safe to use for random numbers you
-intend to be secret, use <code>crypto/rand</code> for those.</p>
+intend to be secret، use <code>crypto/rand</code> for those.</p>
 
           </td>
           <td class="code leading">
@@ -156,7 +156,7 @@ functions on the <code>rand</code> package.</p>
         
         <tr>
           <td class="docs">
-            <p>If you seed a source with the same number, it
+            <p>If you seed a source with the same number، it
 produces the same sequence of random numbers.</p>
 
           </td>
@@ -216,7 +216,7 @@ that Go can provide.</p>
       
       
       <p class="next">
-        Next example: <a href="number-parsing">Number Parsing</a>.
+        مثال بعد: <a href="number-parsing">Number Parsing</a>.
       </p>
       
       <p class="footer">

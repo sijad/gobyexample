@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: For</title>
@@ -73,7 +73,7 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>The most basic type, with a single condition.</p>
+            <p>The most basic type، with a single condition.</p>
 
           </td>
           <td class="code leading">
@@ -148,7 +148,7 @@ the enclosing function.</p>
         <tr>
           <td class="docs">
             <p>We&rsquo;ll see some other <code>for</code> forms later when we look at
-<code>range</code> statements, channels, and other data
+<code>range</code> statements، channels، and other data
 structures.</p>
 
           </td>
@@ -162,7 +162,7 @@ structures.</p>
       
       
       <p class="next">
-        Next example: <a href="if-else">If/Else</a>.
+        مثال بعد: <a href="if-else">If/Else</a>.
       </p>
       
       <p class="footer">

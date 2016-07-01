@@ -44,7 +44,7 @@ table {
 
 /* Layout and typography */
 body {
-    font-family: 'Georgia', serif;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: #252519;
@@ -108,21 +108,19 @@ td.docs {
     min-width: 420px;
     min-height: 5px;
     vertical-align: top;
-    text-align: left;
+    text-align: right;
 }
 td.docs p {
-    padding-right: 5px;
+    padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 15px;
 }
+td.docs p code {
+    display: inline-block;
+}
 td.code {
     width: 480px;
-    max-width: 480px;
-    min-width: 480px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
     vertical-align: top;
     background: #f0f0f0;
 }
@@ -130,16 +128,18 @@ td.code.leading {
     padding-bottom: 11px;
 }
 td.code.empty {
-    background: #ffffff;
+    background: #fff;
 }
 pre, code {
+    direction: ltr;
     font-size: 14px; line-height: 18px;
     font-family: 'Menlo', 'Monaco', 'Consolas', 'Lucida Console', monospace;
 }
+
 img.run {
   height: 16px;
   width: 16px;
-  float: right
+  float: right;
 }
 
 /* Syntax highlighting */

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Structs</title>
@@ -211,7 +211,7 @@ pointers are automatically dereferenced.</p>
       
       
       <p class="next">
-        Next example: <a href="methods">Methods</a>.
+        مثال بعد: <a href="methods">Methods</a>.
       </p>
       
       <p class="footer">

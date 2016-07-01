@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Non-Blocking Channel Operations</title>
@@ -26,8 +26,8 @@
         <tr>
           <td class="docs">
             <p>Basic sends and receives on channels are blocking.
-However, we can use <code>select</code> with a <code>default</code> clause to
-implement <em>non-blocking</em> sends, receives, and even
+However، we can use <code>select</code> with a <code>default</code> clause to
+implement <em>non-blocking</em> sends، receives، and even
 non-blocking multi-way <code>select</code>s.</p>
 
           </td>
@@ -162,7 +162,7 @@ on both <code>messages</code> and <code>signals</code>.</p>
       
       
       <p class="next">
-        Next example: <a href="closing-channels">Closing Channels</a>.
+        مثال بعد: <a href="closing-channels">Closing Channels</a>.
       </p>
       
       <p class="footer">

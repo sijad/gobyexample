@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Values</title>
@@ -25,8 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p>Go has various value types including strings,
-integers, floats, booleans, etc. Here are a few
+            <p>Go has various value types including strings،
+integers، floats، booleans، etc. Here are a few
 basic examples.</p>
 
           </td>
@@ -74,7 +74,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Strings, which can be added together with <code>+</code>.</p>
+            <p>Strings، which can be added together with <code>+</code>.</p>
 
           </td>
           <td class="code leading">
@@ -101,7 +101,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Booleans, with boolean operators as you&rsquo;d expect.</p>
+            <p>Booleans، with boolean operators as you&rsquo;d expect.</p>
 
           </td>
           <td class="code">
@@ -141,7 +141,7 @@ basic examples.</p>
       
       
       <p class="next">
-        Next example: <a href="variables">Variables</a>.
+        مثال بعد: <a href="variables">Variables</a>.
       </p>
       
       <p class="footer">

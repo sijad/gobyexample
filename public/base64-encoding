@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Base64 Encoding</title>
@@ -107,7 +107,7 @@ cast our <code>string</code> to that type.</p>
         
         <tr>
           <td class="docs">
-            <p>Decoding may return an error, which you can check
+            <p>Decoding may return an error، which you can check
 if you don&rsquo;t already know the input to be
 well-formed.</p>
 
@@ -178,7 +178,7 @@ but they both decode to the original string as desired.</p>
       
       
       <p class="next">
-        Next example: <a href="reading-files">Reading Files</a>.
+        مثال بعد: <a href="reading-files">Reading Files</a>.
       </p>
       
       <p class="footer">

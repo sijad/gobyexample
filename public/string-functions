@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: String Functions</title>
@@ -91,7 +91,7 @@ it a lot below.</p>
           <td class="docs">
             <p>Here&rsquo;s a sample of the functions available in
 <code>strings</code>. Note that these are all functions from
-package, not methods on the string object itself.
+package، not methods on the string object itself.
 This means that we need pass the string in question
 as the first argument to the function.</p>
 
@@ -190,7 +190,7 @@ and getting a character by index.</p>
       
       
       <p class="next">
-        Next example: <a href="string-formatting">String Formatting</a>.
+        مثال بعد: <a href="string-formatting">String Formatting</a>.
       </p>
       
       <p class="footer">

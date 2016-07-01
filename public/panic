@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Panic</title>
@@ -27,7 +27,7 @@
           <td class="docs">
             <p>A <code>panic</code> typically means something went unexpectedly
 wrong. Mostly we use it to fail fast on errors that
-shouldn&rsquo;t occur during normal operation, or that we
+shouldn&rsquo;t occur during normal operation، or that we
 aren&rsquo;t prepared to handle gracefully.</p>
 
           </td>
@@ -114,8 +114,8 @@ returns an error value that we don&rsquo;t know how to
         
         <tr>
           <td class="docs">
-            <p>Running this program will cause it to panic, print
-an error message and goroutine traces, and exit with
+            <p>Running this program will cause it to panic، print
+an error message and goroutine traces، and exit with
 a non-zero status.</p>
 
           </td>
@@ -147,7 +147,7 @@ a non-zero status.</p>
         <tr>
           <td class="docs">
             <p>Note that unlike some languages which use exceptions
-for handling of many errors, in Go it is idiomatic
+for handling of many errors، in Go it is idiomatic
 to use error-indicating return values wherever possible.</p>
 
           </td>
@@ -161,7 +161,7 @@ to use error-indicating return values wherever possible.</p>
       
       
       <p class="next">
-        Next example: <a href="defer">Defer</a>.
+        مثال بعد: <a href="defer">Defer</a>.
       </p>
       
       <p class="footer">

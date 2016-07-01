@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Sorting</title>
@@ -77,7 +77,7 @@ builtins first.</p>
           <td class="docs">
             <p>Sort methods are specific to the builtin type;
 here&rsquo;s an example for strings. Note that sorting is
-in-place, so it changes the given slice and doesn&rsquo;t
+in-place، so it changes the given slice and doesn&rsquo;t
 return a new one.</p>
 
           </td>
@@ -147,7 +147,7 @@ slices and <code>true</code> as the result of our <code>AreSorted</code> test.</
       
       
       <p class="next">
-        Next example: <a href="sorting-by-functions">Sorting by Functions</a>.
+        مثال بعد: <a href="sorting-by-functions">Sorting by Functions</a>.
       </p>
       
       <p class="footer">

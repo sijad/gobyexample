@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Command-Line Flags</title>
@@ -27,7 +27,7 @@
           <td class="docs">
             <p><a href="http://en.wikipedia.org/wiki/Command-line_interface#Command-line_option"><em>Command-line flags</em></a>
 are a common way to specify options for command-line
-programs. For example, in <code>wc -l</code> the <code>-l</code> is a
+programs. For example، in <code>wc -l</code> the <code>-l</code> is a
 command-line flag.</p>
 
           </td>
@@ -79,8 +79,8 @@ implement our example command-line program.</p>
         
         <tr>
           <td class="docs">
-            <p>Basic flag declarations are available for string,
-integer, and boolean options. Here we declare a
+            <p>Basic flag declarations are available for string،
+integer، and boolean options. Here we declare a
 string flag <code>word</code> with a default value <code>&quot;foo&quot;</code>
 and a short description. This <code>flag.String</code> function
 returns a string pointer (not a string value);
@@ -97,7 +97,7 @@ we&rsquo;ll see how to use this pointer below.</p>
         
         <tr>
           <td class="docs">
-            <p>This declares <code>numb</code> and <code>fork</code> flags, using a
+            <p>This declares <code>numb</code> and <code>fork</code> flags، using a
 similar approach to the <code>word</code> flag.</p>
 
           </td>
@@ -129,7 +129,7 @@ declaration function.</p>
         
         <tr>
           <td class="docs">
-            <p>Once all flags are declared, call <code>flag.Parse()</code>
+            <p>Once all flags are declared، call <code>flag.Parse()</code>
 to execute the command-line parsing.</p>
 
           </td>
@@ -278,7 +278,7 @@ generated help text for the command-line program.</p>
         <tr>
           <td class="docs">
             <p>If you provide a flag that wasn&rsquo;t specified to the
-<code>flag</code> package, the program will print an error message
+<code>flag</code> package، the program will print an error message
 an show the help text again.</p>
 
           </td>
@@ -295,7 +295,7 @@ an show the help text again.</p>
         
         <tr>
           <td class="docs">
-            <p>Next we&rsquo;ll look at environment variables, another common
+            <p>Next we&rsquo;ll look at environment variables، another common
 way to parameterize programs.</p>
 
           </td>
@@ -309,7 +309,7 @@ way to parameterize programs.</p>
       
       
       <p class="next">
-        Next example: <a href="environment-variables">Environment Variables</a>.
+        مثال بعد: <a href="environment-variables">Environment Variables</a>.
       </p>
       
       <p class="footer">

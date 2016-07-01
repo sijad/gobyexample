@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Multiple Return Values</title>
@@ -26,7 +26,7 @@
         <tr>
           <td class="docs">
             <p>Go has built-in support for <em>multiple return values</em>.
-This feature is used often in idiomatic Go, for example
+This feature is used often in idiomatic Go، for example
 to return both result and error values from a function.</p>
 
           </td>
@@ -62,7 +62,7 @@ to return both result and error values from a function.</p>
         
         <tr>
           <td class="docs">
-            <p>The <code>(int, int)</code> in this function signature shows that
+            <p>The <code>(int، int)</code> in this function signature shows that
 the function returns 2 <code>int</code>s.</p>
 
           </td>
@@ -106,7 +106,7 @@ call with <em>multiple assignment</em>.</p>
         
         <tr>
           <td class="docs">
-            <p>If you only want a subset of the returned values,
+            <p>If you only want a subset of the returned values،
 use the blank identifier <code>_</code>.</p>
 
           </td>
@@ -155,7 +155,7 @@ feature of Go functions; we&rsquo;ll look at this next.</p>
       
       
       <p class="next">
-        Next example: <a href="variadic-functions">Variadic Functions</a>.
+        مثال بعد: <a href="variadic-functions">Variadic Functions</a>.
       </p>
       
       <p class="footer">

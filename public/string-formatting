@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: String Formatting</title>
@@ -89,8 +89,8 @@ common string formatting tasks.</p>
         
         <tr>
           <td class="docs">
-            <p>Go offers several printing &ldquo;verbs&rdquo; designed to
-format general Go values. For example, this prints
+            <p>Go offers several printing &#8221;verbs&#8220; designed to
+format general Go values. For example، this prints
 an instance of our <code>point</code> struct.</p>
 
           </td>
@@ -105,7 +105,7 @@ an instance of our <code>point</code> struct.</p>
         
         <tr>
           <td class="docs">
-            <p>If the value is a struct, the <code>%+v</code> variant will
+            <p>If the value is a struct، the <code>%+v</code> variant will
 include the struct&rsquo;s field names.</p>
 
           </td>
@@ -120,7 +120,7 @@ include the struct&rsquo;s field names.</p>
         <tr>
           <td class="docs">
             <p>The <code>%#v</code> variant prints a Go syntax representation
-of the value, i.e. the source code snippet that
+of the value، i.e. the source code snippet that
 would produce that value.</p>
 
           </td>
@@ -134,7 +134,7 @@ would produce that value.</p>
         
         <tr>
           <td class="docs">
-            <p>To print the type of a value, use <code>%T</code>.</p>
+            <p>To print the type of a value، use <code>%T</code>.</p>
 
           </td>
           <td class="code leading">
@@ -161,7 +161,7 @@ would produce that value.</p>
         <tr>
           <td class="docs">
             <p>There are many options for formatting integers.
-Use <code>%d</code> for standard, base-10 formatting.</p>
+Use <code>%d</code> for standard، base-10 formatting.</p>
 
           </td>
           <td class="code leading">
@@ -256,7 +256,7 @@ different versions of) scientific notation.</p>
         
         <tr>
           <td class="docs">
-            <p>To double-quote strings as in Go source, use <code>%q</code>.</p>
+            <p>To double-quote strings as in Go source، use <code>%q</code>.</p>
 
           </td>
           <td class="code leading">
@@ -269,8 +269,8 @@ different versions of) scientific notation.</p>
         
         <tr>
           <td class="docs">
-            <p>As with integers seen earlier, <code>%x</code> renders
-the string in base-16, with two output characters
+            <p>As with integers seen earlier، <code>%x</code> renders
+the string in base-16، with two output characters
 per byte of input.</p>
 
           </td>
@@ -284,7 +284,7 @@ per byte of input.</p>
         
         <tr>
           <td class="docs">
-            <p>To print a representation of a pointer, use <code>%p</code>.</p>
+            <p>To print a representation of a pointer، use <code>%p</code>.</p>
 
           </td>
           <td class="code leading">
@@ -299,7 +299,7 @@ per byte of input.</p>
           <td class="docs">
             <p>When formatting numbers you will often want to
 control the width and precision of the resulting
-figure. To specify the width of an integer, use a
+figure. To specify the width of an integer، use a
 number after the <code>%</code> in the verb. By default the
 result will be right-justified and padded with
 spaces.</p>
@@ -315,7 +315,7 @@ spaces.</p>
         
         <tr>
           <td class="docs">
-            <p>You can also specify the width of printed floats,
+            <p>You can also specify the width of printed floats،
 though usually you&rsquo;ll also want to restrict the
 decimal precision at the same time with the
 width.precision syntax.</p>
@@ -331,7 +331,7 @@ width.precision syntax.</p>
         
         <tr>
           <td class="docs">
-            <p>To left-justify, use the <code>-</code> flag.</p>
+            <p>To left-justify، use the <code>-</code> flag.</p>
 
           </td>
           <td class="code leading">
@@ -345,7 +345,7 @@ width.precision syntax.</p>
         <tr>
           <td class="docs">
             <p>You may also want to control width when formatting
-strings, especially to ensure that they align in
+strings، especially to ensure that they align in
 table-like output. For basic right-justified width.</p>
 
           </td>
@@ -372,7 +372,7 @@ table-like output. For basic right-justified width.</p>
         
         <tr>
           <td class="docs">
-            <p>So far we&rsquo;ve seen <code>Printf</code>, which prints the
+            <p>So far we&rsquo;ve seen <code>Printf</code>، which prints the
 formatted string to <code>os.Stdout</code>. <code>Sprintf</code> formats
 and returns a string without printing it anywhere.</p>
 
@@ -444,7 +444,7 @@ and returns a string without printing it anywhere.</p>
       
       
       <p class="next">
-        Next example: <a href="regular-expressions">Regular Expressions</a>.
+        مثال بعد: <a href="regular-expressions">Regular Expressions</a>.
       </p>
       
       <p class="footer">

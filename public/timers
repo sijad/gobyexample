@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Timers</title>
@@ -26,7 +26,7 @@
         <tr>
           <td class="docs">
             <p>We often want to execute Go code at some point in the
-future, or repeatedly at some interval. Go&rsquo;s built-in
+future، or repeatedly at some interval. Go&rsquo;s built-in
 <em>timer</em> and <em>ticker</em> features make both of these tasks
 easy. We&rsquo;ll look first at timers and then
 at <a href="tickers">tickers</a>.</p>
@@ -78,7 +78,7 @@ at <a href="tickers">tickers</a>.</p>
         <tr>
           <td class="docs">
             <p>Timers represent a single event in the future. You
-tell the timer how long you want to wait, and it
+tell the timer how long you want to wait، and it
 provides a channel that will be notified at that
 time. This timer will wait 2 seconds.</p>
 
@@ -109,7 +109,7 @@ expired.</p>
         
         <tr>
           <td class="docs">
-            <p>If you just wanted to wait, you could have used
+            <p>If you just wanted to wait، you could have used
 <code>time.Sleep</code>. One reason a timer may be useful is
 that you can cancel the timer before it expires.
 Here&rsquo;s an example of that.</p>
@@ -139,7 +139,7 @@ Here&rsquo;s an example of that.</p>
         <tr>
           <td class="docs">
             <p>The first timer will expire ~2s after we start the
-program, but the second should be stopped before it has
+program، but the second should be stopped before it has
 a chance to expire.</p>
 
           </td>
@@ -157,7 +157,7 @@ a chance to expire.</p>
       
       
       <p class="next">
-        Next example: <a href="tickers">Tickers</a>.
+        مثال بعد: <a href="tickers">Tickers</a>.
       </p>
       
       <p class="footer">

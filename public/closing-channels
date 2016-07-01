@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Closing Channels</title>
@@ -81,8 +81,8 @@ the worker we&rsquo;ll <code>close</code> the <code>jobs</code> channel.</p>
         <tr>
           <td class="docs">
             <p>Here&rsquo;s the worker goroutine. It repeatedly receives
-from <code>jobs</code> with <code>j, more := &lt;-jobs</code>. In this
-special 2-value form of receive, the <code>more</code> value
+from <code>jobs</code> with <code>j، more := &lt;-jobs</code>. In this
+special 2-value form of receive، the <code>more</code> value
 will be <code>false</code> if <code>jobs</code> has been <code>close</code>d and all
 values in the channel have already been received.
 We use this to notify on <code>done</code> when we&rsquo;ve worked
@@ -111,7 +111,7 @@ all our jobs.</p>
         <tr>
           <td class="docs">
             <p>This sends 3 jobs to the worker over the <code>jobs</code>
-channel, then closes it.</p>
+channel، then closes it.</p>
 
           </td>
           <td class="code leading">
@@ -183,7 +183,7 @@ example: <code>range</code> over channels.</p>
       
       
       <p class="next">
-        Next example: <a href="range-over-channels">Range over Channels</a>.
+        مثال بعد: <a href="range-over-channels">Range over Channels</a>.
       </p>
       
       <p class="footer">

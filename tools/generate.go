@@ -3,7 +3,6 @@ package main
 import (
     "crypto/sha1"
     "fmt"
-    "github.com/russross/blackfriday"
     "io/ioutil"
     "net/http"
     "os"
@@ -12,6 +11,8 @@ import (
     "regexp"
     "strings"
     "text/template"
+
+    "github.com/russross/blackfriday"
 )
 
 var cacheDir = "/tmp/gobyexample-cache"
@@ -83,7 +84,12 @@ func cachedPygmentize(lex string, src string) string {
 }
 
 func markdown(src string) string {
-    return string(blackfriday.MarkdownCommon([]byte(src)))
+    dist := string(blackfriday.MarkdownCommon([]byte(src)))
+    replaces := map[string]string{"&rdquo;": "&#8220;", "&ldquo;": "&#8221;", ",": "،", "?": "؟"}
+    for old, new := range replaces {
+        dist = strings.Replace(dist, old, new, -1)
+    }
+    return dist
 }
 
 func readLines(path string) []string {
