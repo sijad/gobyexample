@@ -1,6 +1,5 @@
-// In Go, _variables_ are explicitly declared and used by
-// the compiler to e.g. check type-correctness of function
-// calls.
+// در Go متغیرها توسط کامپایر تعریف و استفاده می‌شوند.
+// مثلا برای چک کردن نوع برگشتی یک تابع فراخوانده شده.
 
 package main
 
@@ -8,27 +7,27 @@ import "fmt"
 
 func main() {
 
-    // `var` declares 1 or more variables.
+    // بوسیله `var` می‌توان یک یا چند متغیر تعریف نمود.
     var a string = "initial"
     fmt.Println(a)
 
-    // You can declare multiple variables at once.
+    // می‌توانید تعدادی متغیر را همزمان ایجاد کنید.
     var b, c int = 1, 2
     fmt.Println(b, c)
 
-    // Go will infer the type of initialized variables.
+    // Go می‌تواند نوع مقدار اولیه متغیر را حدس زند.
     var d = true
     fmt.Println(d)
 
-    // Variables declared without a corresponding
-    // initialization are _zero-valued_. For example, the
-    // zero value for an `int` is `0`.
+    // مقدار متغیرهای بدون مقدار اولیه
+    // برابر مقدار صفر نوع خود هستند
+    // مثلا مقدار یک `int` برابر `0` است.
     var e int
     fmt.Println(e)
 
-    // The `:=` syntax is shorthand for declaring and
-    // initializing a variable, e.g. for
-    // `var f string = "short"` in this case.
+    // عملگر `:=` ترکیب کوتاه شده تعریف و
+    // مقداردهی متغیر است. برای مثال
+    // `var f string = "short"` در اینجا.
     f := "short"
     fmt.Println(f)
 }
