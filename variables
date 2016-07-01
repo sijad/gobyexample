@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Variables</title>
@@ -25,7 +25,7 @@
         
         <tr>
           <td class="docs">
-            <p>In Go, <em>variables</em> are explicitly declared and used by
+            <p>In Go، <em>variables</em> are explicitly declared and used by
 the compiler to e.g. check type-correctness of function
 calls.</p>
 
@@ -117,7 +117,7 @@ calls.</p>
         <tr>
           <td class="docs">
             <p>Variables declared without a corresponding
-initialization are <em>zero-valued</em>. For example, the
+initialization are <em>zero-valued</em>. For example، the
 zero value for an <code>int</code> is <code>0</code>.</p>
 
           </td>
@@ -133,7 +133,7 @@ zero value for an <code>int</code> is <code>0</code>.</p>
         <tr>
           <td class="docs">
             <p>The <code>:=</code> syntax is shorthand for declaring and
-initializing a variable, e.g. for
+initializing a variable، e.g. for
 <code>var f string = &quot;short&quot;</code> in this case.</p>
 
           </td>
@@ -172,7 +172,7 @@ initializing a variable, e.g. for
       
       
       <p class="next">
-        Next example: <a href="constants">Constants</a>.
+        مثال بعد: <a href="constants">Constants</a>.
       </p>
       
       <p class="footer">

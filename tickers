@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Tickers</title>
@@ -140,7 +140,7 @@ before we stop it.</p>
       
       
       <p class="next">
-        Next example: <a href="worker-pools">Worker Pools</a>.
+        مثال بعد: <a href="worker-pools">Worker Pools</a>.
       </p>
       
       <p class="footer">

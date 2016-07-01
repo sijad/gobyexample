@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Writing Files</title>
@@ -94,7 +94,7 @@ ones we saw earlier for reading.</p>
         
         <tr>
           <td class="docs">
-            <p>To start, here&rsquo;s how to dump a string (or just
+            <p>To start، here&rsquo;s how to dump a string (or just
 bytes) into a file.</p>
 
           </td>
@@ -110,7 +110,7 @@ bytes) into a file.</p>
         
         <tr>
           <td class="docs">
-            <p>For more granular writes, open a file for writing.</p>
+            <p>For more granular writes، open a file for writing.</p>
 
           </td>
           <td class="code leading">
@@ -276,7 +276,7 @@ we&rsquo;ve just seen to the <code>stdin</code> and <code>stdout</code> streams.
       
       
       <p class="next">
-        Next example: <a href="line-filters">Line Filters</a>.
+        مثال بعد: <a href="line-filters">Line Filters</a>.
       </p>
       
       <p class="footer">

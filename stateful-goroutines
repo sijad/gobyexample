@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Stateful Goroutines</title>
@@ -75,7 +75,7 @@ by exactly 1 goroutine.</p>
             <p>In this example our state will be owned by a single
 goroutine. This will guarantee that the data is never
 corrupted with concurrent access. In order to read or
-write that state, other goroutines will send messages
+write that state، other goroutines will send messages
 to the owning goroutine and receive corresponding
 replies. These <code>readOp</code> and <code>writeOp</code> <code>struct</code>s
 encapsulate those requests and a way for the owning
@@ -126,7 +126,7 @@ goroutine to respond.</p>
         <tr>
           <td class="docs">
             <p>The <code>reads</code> and <code>writes</code> channels will be used by
-other goroutines to issue read and write requests,
+other goroutines to issue read and write requests،
 respectively.</p>
 
           </td>
@@ -141,10 +141,10 @@ respectively.</p>
         
         <tr>
           <td class="docs">
-            <p>Here is the goroutine that owns the <code>state</code>, which
+            <p>Here is the goroutine that owns the <code>state</code>، which
 is a map as in the previous example but now private
 to the stateful goroutine. This goroutine repeatedly
-selects on the <code>reads</code> and <code>writes</code> channels,
+selects on the <code>reads</code> and <code>writes</code> channels،
 responding to requests as they arrive. A response
 is executed by first performing the requested
 operation and then sending a value on the response
@@ -175,8 +175,8 @@ value in the case of <code>reads</code>).</p>
           <td class="docs">
             <p>This starts 100 goroutines to issue reads to the
 state-owning goroutine via the <code>reads</code> channel.
-Each read requires constructing a <code>readOp</code>, sending
-it over the <code>reads</code> channel, and the receiving the
+Each read requires constructing a <code>readOp</code>، sending
+it over the <code>reads</code> channel، and the receiving the
 result over the provided <code>resp</code> channel.</p>
 
           </td>
@@ -201,7 +201,7 @@ result over the provided <code>resp</code> channel.</p>
         
         <tr>
           <td class="docs">
-            <p>We start 10 writes as well, using a similar
+            <p>We start 10 writes as well، using a similar
 approach.</p>
 
           </td>
@@ -240,7 +240,7 @@ approach.</p>
         
         <tr>
           <td class="docs">
-            <p>Finally, capture and report the <code>ops</code> count.</p>
+            <p>Finally، capture and report the <code>ops</code> count.</p>
 
           </td>
           <td class="code">
@@ -260,7 +260,7 @@ approach.</p>
         <tr>
           <td class="docs">
             <p>Running our program shows that the goroutine-based
-state management example achieves about 800,000
+state management example achieves about 800،000
 operations per second.</p>
 
           </td>
@@ -277,10 +277,10 @@ operations per second.</p>
           <td class="docs">
             <p>For this particular case the goroutine-based approach
 was a bit more involved than the mutex-based one. It
-might be useful in certain cases though, for example
+might be useful in certain cases though، for example
 where you have other channels involved or when managing
 multiple such mutexes would be error-prone. You should
-use whichever approach feels most natural, especially
+use whichever approach feels most natural، especially
 with respect to understanding the correctness of your
 program.</p>
 
@@ -295,7 +295,7 @@ program.</p>
       
       
       <p class="next">
-        Next example: <a href="sorting">Sorting</a>.
+        مثال بعد: <a href="sorting">Sorting</a>.
       </p>
       
       <p class="footer">

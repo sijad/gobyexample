@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Channel Synchronization</title>
@@ -107,7 +107,7 @@ goroutine that this function&rsquo;s work is done.</p>
         
         <tr>
           <td class="docs">
-            <p>Start a worker goroutine, giving it the channel to
+            <p>Start a worker goroutine، giving it the channel to
 notify on.</p>
 
           </td>
@@ -154,7 +154,7 @@ worker on the channel.</p>
         
         <tr>
           <td class="docs">
-            <p>If you removed the <code>&lt;- done</code> line from this program, the
+            <p>If you removed the <code>&lt;- done</code> line from this program، the
 program would exit before the <code>worker</code> even
 started.</p>
 
@@ -169,7 +169,7 @@ started.</p>
       
       
       <p class="next">
-        Next example: <a href="channel-directions">Channel Directions</a>.
+        مثال بعد: <a href="channel-directions">Channel Directions</a>.
       </p>
       
       <p class="footer">

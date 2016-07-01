@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Time Formatting / Parsing</title>
@@ -76,7 +76,7 @@ pattern-based layouts.</p>
         <tr>
           <td class="docs">
             <p>Here&rsquo;s a basic example of formatting a time
-according to RFC3339, using the corresponding layout
+according to RFC3339، using the corresponding layout
 constant.</p>
 
           </td>
@@ -108,12 +108,12 @@ constant.</p>
         <tr>
           <td class="docs">
             <p><code>Format</code> and <code>Parse</code> use example-based layouts. Usually
-you&rsquo;ll use a constant from <code>time</code> for these layouts, but
+you&rsquo;ll use a constant from <code>time</code> for these layouts، but
 you can also supply custom layouts. Layouts must use the
 reference time <code>Mon Jan 2 15:04:05 MST 2006</code> to show the
 pattern with which to format/parse a given time/string.
-The example time must be exactly as shown: the year 2006,
-15 for the hour, Monday for the day of the week, etc.</p>
+The example time must be exactly as shown: the year 2006،
+15 for the hour، Monday for the day of the week، etc.</p>
 
           </td>
           <td class="code leading">
@@ -191,7 +191,7 @@ explaining the parsing problem.</p>
       
       
       <p class="next">
-        Next example: <a href="random-numbers">Random Numbers</a>.
+        مثال بعد: <a href="random-numbers">Random Numbers</a>.
       </p>
       
       <p class="footer">

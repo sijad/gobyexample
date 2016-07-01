@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Slices</title>
@@ -25,7 +25,7 @@
         
         <tr>
           <td class="docs">
-            <p><em>Slices</em> are a key data type in Go, giving a more
+            <p><em>Slices</em> are a key data type in Go، giving a more
 powerful interface to sequences than arrays.</p>
 
           </td>
@@ -73,9 +73,9 @@ powerful interface to sequences than arrays.</p>
         
         <tr>
           <td class="docs">
-            <p>Unlike arrays, slices are typed only by the
+            <p>Unlike arrays، slices are typed only by the
 elements they contain (not the number of elements).
-To create an empty slice with non-zero length, use
+To create an empty slice with non-zero length، use
 the builtin <code>make</code>. Here we make a slice of
 <code>string</code>s of length <code>3</code> (initially zero-valued).</p>
 
@@ -121,9 +121,9 @@ the builtin <code>make</code>. Here we make a slice of
         
         <tr>
           <td class="docs">
-            <p>In addition to these basic operations, slices
+            <p>In addition to these basic operations، slices
 support several more that make them richer than
-arrays. One is the builtin <code>append</code>, which
+arrays. One is the builtin <code>append</code>، which
 returns a slice containing one or more new values.
 Note that we need to accept a return value from
 append as we may get a new slice value.</p>
@@ -158,9 +158,9 @@ into <code>c</code> from <code>s</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>Slices support a &ldquo;slice&rdquo; operator with the syntax
-<code>slice[low:high]</code>. For example, this gets a slice
-of the elements <code>s[2]</code>, <code>s[3]</code>, and <code>s[4]</code>.</p>
+            <p>Slices support a &#8221;slice&#8220; operator with the syntax
+<code>slice[low:high]</code>. For example، this gets a slice
+of the elements <code>s[2]</code>، <code>s[3]</code>، and <code>s[4]</code>.</p>
 
           </td>
           <td class="code leading">
@@ -219,7 +219,7 @@ in a single line as well.</p>
           <td class="docs">
             <p>Slices can be composed into multi-dimensional data
 structures. The length of the inner slices can
-vary, unlike with multi-dimensional arrays.</p>
+vary، unlike with multi-dimensional arrays.</p>
 
           </td>
           <td class="code">
@@ -245,7 +245,7 @@ vary, unlike with multi-dimensional arrays.</p>
         
         <tr>
           <td class="docs">
-            <p>Note that while slices are different types than arrays,
+            <p>Note that while slices are different types than arrays،
 they are rendered similarly by <code>fmt.Println</code>.</p>
 
           </td>
@@ -297,7 +297,7 @@ Go&rsquo;s other key builtin data structure: maps.</p>
       
       
       <p class="next">
-        Next example: <a href="maps">Maps</a>.
+        مثال بعد: <a href="maps">Maps</a>.
       </p>
       
       <p class="footer">

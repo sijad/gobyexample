@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Worker Pools</title>
@@ -62,7 +62,7 @@ a <em>worker pool</em> using goroutines and channels.</p>
         
         <tr>
           <td class="docs">
-            <p>Here&rsquo;s the worker, of which we&rsquo;ll run several
+            <p>Here&rsquo;s the worker، of which we&rsquo;ll run several
 concurrent instances. These workers will receive
 work on the <code>jobs</code> channel and send the corresponding
 results on <code>results</code>. We&rsquo;ll sleep a second per job to
@@ -113,7 +113,7 @@ channels for this.</p>
         
         <tr>
           <td class="docs">
-            <p>This starts up 3 workers, initially blocked
+            <p>This starts up 3 workers، initially blocked
 because there are no jobs yet.</p>
 
           </td>
@@ -205,7 +205,7 @@ there are 3 workers operating concurrently.</p>
       
       
       <p class="next">
-        Next example: <a href="rate-limiting">Rate Limiting</a>.
+        مثال بعد: <a href="rate-limiting">Rate Limiting</a>.
       </p>
       
       <p class="footer">

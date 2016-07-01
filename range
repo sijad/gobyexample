@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Range</title>
@@ -95,7 +95,7 @@ Arrays work like this too.</p>
           <td class="docs">
             <p><code>range</code> on arrays and slices provides both the
 index and value for each entry. Above we didn&rsquo;t
-need the index, so we ignored it with the
+need the index، so we ignored it with the
 blank identifier <code>_</code>. Sometimes we actually want
 the indexes though.</p>
 
@@ -172,7 +172,7 @@ of the <code>rune</code> and the second the <code>rune</code> itself.</p>
       
       
       <p class="next">
-        Next example: <a href="functions">Functions</a>.
+        مثال بعد: <a href="functions">Functions</a>.
       </p>
       
       <p class="footer">

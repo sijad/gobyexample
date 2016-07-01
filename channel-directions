@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Channel Directions</title>
@@ -25,7 +25,7 @@
         
         <tr>
           <td class="docs">
-            <p>When using channels as function parameters, you can
+            <p>When using channels as function parameters، you can
 specify if a channel is meant to only send or receive
 values. This specificity increases the type-safety of
 the program.</p>
@@ -134,7 +134,7 @@ receive on this channel.</p>
       
       
       <p class="next">
-        Next example: <a href="select">Select</a>.
+        مثال بعد: <a href="select">Select</a>.
       </p>
       
       <p class="footer">

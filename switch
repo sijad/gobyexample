@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Switch</title>
@@ -159,7 +159,7 @@ to express if/else logic. Here we also show how the
       
       
       <p class="next">
-        Next example: <a href="arrays">Arrays</a>.
+        مثال بعد: <a href="arrays">Arrays</a>.
       </p>
       
       <p class="footer">

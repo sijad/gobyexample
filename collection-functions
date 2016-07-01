@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Collection Functions</title>
@@ -26,7 +26,7 @@
         <tr>
           <td class="docs">
             <p>We often need our programs to perform operations on
-collections of data, like selecting all items that
+collections of data، like selecting all items that
 satisfy a given predicate or mapping all items to a new
 collection with a custom function.</p>
 
@@ -58,7 +58,7 @@ your program and data types.</p>
 of <code>strings</code>. You can use these examples to build your
 own functions. Note that in some cases it may be
 clearest to just inline the collection-manipulating
-code directly, instead of creating and calling a
+code directly، instead of creating and calling a
 helper function.</p>
 
           </td>
@@ -95,7 +95,7 @@ helper function.</p>
         
         <tr>
           <td class="docs">
-            <p>Returns the first index of the target string <code>t</code>, or
+            <p>Returns the first index of the target string <code>t</code>، or
 -1 if no match is found.</p>
 
           </td>
@@ -307,7 +307,7 @@ the function <code>f</code> to each string in the original slice.</p>
         
         <tr>
           <td class="docs">
-            <p>The above examples all used anonymous functions,
+            <p>The above examples all used anonymous functions،
 but you can also use named functions of the correct
 type.</p>
 
@@ -358,7 +358,7 @@ type.</p>
       
       
       <p class="next">
-        Next example: <a href="string-functions">String Functions</a>.
+        مثال بعد: <a href="string-functions">String Functions</a>.
       </p>
       
       <p class="footer">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Recursion</title>
@@ -114,7 +114,7 @@ base case of <code>fact(0)</code>.</p>
       
       
       <p class="next">
-        Next example: <a href="pointers">Pointers</a>.
+        مثال بعد: <a href="pointers">Pointers</a>.
       </p>
       
       <p class="footer">
