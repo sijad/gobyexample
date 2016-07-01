@@ -1,6 +1,6 @@
-// Go has various value types including strings,
-// integers, floats, booleans, etc. Here are a few
-// basic examples.
+// Go انواع مختلفی مقادیر شامل string,
+// integer, float, boolean,... را دارد. اینجا تعدادی
+// مثال ساده آورده شده است.
 
 package main
 
@@ -8,14 +8,14 @@ import "fmt"
 
 func main() {
 
-    // Strings, which can be added together with `+`.
+    // String, که می‌توانند بوسیله عملگر `+` به‌هم افزوده شوند.
     fmt.Println("go" + "lang")
 
-    // Integers and floats.
+    // Integer و float.
     fmt.Println("1+1 =", 1+1)
     fmt.Println("7.0/3.0 =", 7.0/3.0)
 
-    // Booleans, with boolean operators as you'd expect.
+    // Boolean و همانطور که انتظار دارد با عملگرهای بولی.
     fmt.Println(true && false)
     fmt.Println(true || false)
     fmt.Println(!true)

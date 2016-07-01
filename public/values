@@ -25,9 +25,9 @@
         
         <tr>
           <td class="docs">
-            <p>Go has various value types including strings،
-integers، floats، booleans، etc. Here are a few
-basic examples.</p>
+            <p>Go انواع مختلفی مقادیر شامل string،
+integer، float، boolean،&hellip; را دارد. اینجا تعدادی
+مثال ساده آورده شده است.</p>
 
           </td>
           <td class="code empty leading">
@@ -41,7 +41,7 @@ basic examples.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/fgGVOyuZdu"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/TpWwrNz0g8"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -74,7 +74,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Strings، which can be added together with <code>+</code>.</p>
+            <p>String، که می‌توانند بوسیله عملگر <code>+</code> به‌هم افزوده شوند.</p>
 
           </td>
           <td class="code leading">
@@ -87,7 +87,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Integers and floats.</p>
+            <p>Integer و float.</p>
 
           </td>
           <td class="code leading">
@@ -101,7 +101,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Booleans، with boolean operators as you&rsquo;d expect.</p>
+            <p>Boolean و همانطور که انتظار دارد با عملگرهای بولی.</p>
 
           </td>
           <td class="code">
