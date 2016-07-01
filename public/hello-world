@@ -25,12 +25,12 @@
         
         <tr>
           <td class="docs">
-            <p>Our first program will print the classic &#8221;hello world&#8220;
-message. Here&rsquo;s the full source code.</p>
+            <p>اولین برنامه که جمله &#8221;hello world&#8220; را نمایش می‌دهد.
+کل سورس برنامه اینجا قرار دارد.</p>
 
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/2C7wwJ6nxG"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/hlIssyTKjU"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -69,8 +69,8 @@ message. Here&rsquo;s the full source code.</p>
         
         <tr>
           <td class="docs">
-            <p>To run the program، put the code in <code>hello-world.go</code> and
-use <code>go run</code>.</p>
+            <p>کد را داخل فایل <code>hello-world.go</code> قرار دهید
+و برای اجرای برنامه از دستور <code>go run</code> استفاده نمایید.</p>
 
           </td>
           <td class="code leading">
@@ -84,8 +84,8 @@ use <code>go run</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>Sometimes we&rsquo;ll want to build our programs into
-binaries. We can do this using <code>go build</code>.</p>
+            <p>مواقعی که نیاز به خروجی باینری برنامه داریم
+می‌توان از دستور <code>go build</code> استفاده کرد.</p>
 
           </td>
           <td class="code leading">
@@ -100,7 +100,7 @@ binaries. We can do this using <code>go build</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>We can then execute the built binary directly.</p>
+            <p>و سپس فایل باینری را اجرا نماییم.</p>
 
           </td>
           <td class="code leading">
@@ -114,8 +114,8 @@ binaries. We can do this using <code>go build</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>Now that we can run and build basic Go programs، let&rsquo;s
-learn more about the language.</p>
+            <p>حالا که فهمیدیم چگونه کد را اجرا و برنامه را بسازیم
+اجازه دهید تا چیزهایی بیشتری یاد بگیریم.</p>
 
           </td>
           <td class="code empty">

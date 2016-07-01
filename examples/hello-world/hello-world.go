@@ -1,5 +1,5 @@
-// Our first program will print the classic "hello world"
-// message. Here's the full source code.
+// اولین برنامه که جمله "hello world" را نمایش می‌دهد.
+// کل سورس برنامه اینجا قرار دارد.
 package main
 
 import "fmt"
