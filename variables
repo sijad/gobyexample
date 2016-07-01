@@ -25,9 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p>In Go، <em>variables</em> are explicitly declared and used by
-the compiler to e.g. check type-correctness of function
-calls.</p>
+            <p>در Go متغیرها توسط کامپایر تعریف و استفاده می‌شوند.
+مثلا برای چک کردن نوع برگشتی یک تابع فراخوانده شده.</p>
 
           </td>
           <td class="code empty leading">
@@ -41,7 +40,7 @@ calls.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/Zv45CSMaiD"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/LJgpHvf2QN"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -74,7 +73,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p><code>var</code> declares 1 or more variables.</p>
+            <p>بوسیله <code>var</code> می‌توان یک یا چند متغیر تعریف نمود.</p>
 
           </td>
           <td class="code leading">
@@ -88,7 +87,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>You can declare multiple variables at once.</p>
+            <p>می‌توانید تعدادی متغیر را همزمان ایجاد کنید.</p>
 
           </td>
           <td class="code leading">
@@ -102,7 +101,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>Go will infer the type of initialized variables.</p>
+            <p>Go می‌تواند نوع مقدار اولیه متغیر را حدس زند.</p>
 
           </td>
           <td class="code leading">
@@ -116,9 +115,9 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>Variables declared without a corresponding
-initialization are <em>zero-valued</em>. For example، the
-zero value for an <code>int</code> is <code>0</code>.</p>
+            <p>مقدار متغیرهای بدون مقدار اولیه
+برابر مقدار صفر نوع خود هستند
+مثلا مقدار یک <code>int</code> برابر <code>0</code> است.</p>
 
           </td>
           <td class="code leading">
@@ -132,9 +131,9 @@ zero value for an <code>int</code> is <code>0</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>The <code>:=</code> syntax is shorthand for declaring and
-initializing a variable، e.g. for
-<code>var f string = &quot;short&quot;</code> in this case.</p>
+            <p>عملگر <code>:=</code> ترکیب کوتاه شده تعریف و
+مقداردهی متغیر است. برای مثال
+<code>var f string = &quot;short&quot;</code> در اینجا.</p>
 
           </td>
           <td class="code">
