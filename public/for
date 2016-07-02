@@ -25,8 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p><code>for</code> is Go&rsquo;s only looping construct. Here are
-three basic types of <code>for</code> loops.</p>
+            <p><code>for</code> تنها دستور حلقه در Go است. اینجا
+سه حالت مختلف <code>for</code> آورده شده است.</p>
 
           </td>
           <td class="code empty leading">
@@ -40,7 +40,7 @@ three basic types of <code>for</code> loops.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/mGqqcBZ0jv"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/sGN2nFc2w_"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -73,7 +73,7 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>The most basic type، with a single condition.</p>
+            <p>ساده‌ترین حالت، تنها با یک شرط.</p>
 
           </td>
           <td class="code leading">
@@ -90,7 +90,7 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>A classic initial/condition/after <code>for</code> loop.</p>
+            <p>حالت مقداردهی‌اولیه-شرط-بروزرسانی حلقه <code>for</code>.</p>
 
           </td>
           <td class="code leading">
@@ -105,9 +105,8 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p><code>for</code> without a condition will loop repeatedly
-until you <code>break</code> out of the loop or <code>return</code> from
-the enclosing function.</p>
+            <p>حلقه <code>for</code> بدون شرط تا وقتی که دستور <code>break</code> و یا
+<code>return</code> صدا شوند مکررا تکرار می‌شود.</p>
 
           </td>
           <td class="code">
@@ -147,9 +146,9 @@ the enclosing function.</p>
         
         <tr>
           <td class="docs">
-            <p>We&rsquo;ll see some other <code>for</code> forms later when we look at
-<code>range</code> statements، channels، and other data
-structures.</p>
+            <p>در مثال‌های بعدی مانند دستور <code>range</code>، کانال‌ها، و دیگر
+ساختارها با انواع دیگر حلقه <code>for</code>
+آشنا می‌شویم.</p>
 
           </td>
           <td class="code empty">

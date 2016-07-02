@@ -7,6 +7,6 @@ $ go run for.go
 9
 loop
 
-# We'll see some other `for` forms later when we look at
-# `range` statements, channels, and other data
-# structures.
+# در مثال‌های بعدی مانند دستور `range`، کانال‌ها، و دیگر
+# ساختارها با انواع دیگر حلقه `for`
+# آشنا می‌شویم.
