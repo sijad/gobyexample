@@ -26,8 +26,8 @@
         <tr>
           <td class="docs">
             <p>Basic sends and receives on channels are blocking.
-However، we can use <code>select</code> with a <code>default</code> clause to
-implement <em>non-blocking</em> sends، receives، and even
+However, we can use <code>select</code> with a <code>default</code> clause to
+implement <em>non-blocking</em> sends, receives, and even
 non-blocking multi-way <code>select</code>s.</p>
 
           </td>

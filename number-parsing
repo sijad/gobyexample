@@ -76,7 +76,7 @@ parsing.</p>
         
         <tr>
           <td class="docs">
-            <p>With <code>ParseFloat</code>، this <code>64</code> tells how many bits of
+            <p>With <code>ParseFloat</code>, this <code>64</code> tells how many bits of
 precision to parse.</p>
 
           </td>
@@ -91,7 +91,7 @@ precision to parse.</p>
         
         <tr>
           <td class="docs">
-            <p>For <code>ParseInt</code>، the <code>0</code> means infer the base from
+            <p>For <code>ParseInt</code>, the <code>0</code> means infer the base from
 the string. <code>64</code> requires that the result fit in 64
 bits.</p>
 

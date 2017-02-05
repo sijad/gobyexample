@@ -107,7 +107,7 @@ cast our <code>string</code> to that type.</p>
         
         <tr>
           <td class="docs">
-            <p>Decoding may return an error، which you can check
+            <p>Decoding may return an error, which you can check
 if you don&rsquo;t already know the input to be
 well-formed.</p>
 

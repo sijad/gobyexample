@@ -73,7 +73,7 @@
         
         <tr>
           <td class="docs">
-            <p>To create an empty map، use the builtin <code>make</code>:
+            <p>To create an empty map, use the builtin <code>make</code>:
 <code>make(map[key-type]val-type)</code>.</p>
 
           </td>
@@ -164,7 +164,7 @@ value from a map indicates if the key was present
 in the map. This can be used to disambiguate
 between missing keys and keys with zero values
 like <code>0</code> or <code>&quot;&quot;</code>. Here we didn&rsquo;t need the value
-itself، so we ignored it with the <em>blank identifier</em>
+itself, so we ignored it with the <em>blank identifier</em>
 <code>_</code>.</p>
 
           </td>

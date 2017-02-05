@@ -115,7 +115,7 @@ slurping a file&rsquo;s entire contents into memory.</p>
         <tr>
           <td class="docs">
             <p>You&rsquo;ll often want more control over how and what
-parts of a file are read. For these tasks، start
+parts of a file are read. For these tasks, start
 by <code>Open</code>ing a file to obtain an <code>os.File</code> value.</p>
 
           </td>
@@ -168,7 +168,7 @@ and <code>Read</code> from there.</p>
         <tr>
           <td class="docs">
             <p>The <code>io</code> package provides some functions that may
-be helpful for file reading. For example، reads
+be helpful for file reading. For example, reads
 like the ones above can be more robustly
 implemented with <code>ReadAtLeast</code>.</p>
 
@@ -188,7 +188,7 @@ implemented with <code>ReadAtLeast</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>There is no built-in rewind، but <code>Seek(0، 0)</code>
+            <p>There is no built-in rewind, but <code>Seek(0, 0)</code>
 accomplishes this.</p>
 
           </td>

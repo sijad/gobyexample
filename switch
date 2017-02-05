@@ -121,7 +121,7 @@ to express if/else logic. Here we also show how the
 <code>case</code> expressions can be non-constants.</p>
 
           </td>
-          <td class="code">
+          <td class="code leading">
 	        
             <div class="highlight"><pre>    <span class="nx">t</span> <span class="o">:=</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Now</span><span class="p">()</span>
     <span class="k">switch</span> <span class="p">{</span>
@@ -133,6 +133,17 @@ to express if/else logic. Here we also show how the
 <span class="p">}</span>
 </pre></div>
 
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="docs">
+            <p>todo: type switches</p>
+
+          </td>
+          <td class="code empty">
+	        
+            
           </td>
         </tr>
         

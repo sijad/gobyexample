@@ -90,7 +90,7 @@ in Go.</p>
         
         <tr>
           <td class="docs">
-            <p>Above we used a string pattern directly، but for
+            <p>Above we used a string pattern directly, but for
 other regexp tasks you&rsquo;ll need to <code>Compile</code> an
 optimized <code>Regexp</code> struct.</p>
 
@@ -178,7 +178,7 @@ indexes of matches and submatches.</p>
         <tr>
           <td class="docs">
             <p>The <code>All</code> variants of these functions apply to all
-matches in the input، not just the first. For
+matches in the input, not just the first. For
 example to find all matches for a regexp.</p>
 
           </td>

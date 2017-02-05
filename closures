@@ -25,7 +25,7 @@
         
         <tr>
           <td class="docs">
-            <p>Go supports <a href="http://en.wikipedia.org/wiki/Anonymous_function"><em>anonymous functions</em></a>،
+            <p>Go supports <a href="http://en.wikipedia.org/wiki/Anonymous_function"><em>anonymous functions</em></a>,
 which can form <a href="http://en.wikipedia.org/wiki/Closure_(computer_science)"><em>closures</em></a>.
 Anonymous functions are useful when you want to define
 a function inline without having to name it.</p>
@@ -63,7 +63,7 @@ a function inline without having to name it.</p>
         
         <tr>
           <td class="docs">
-            <p>This function <code>intSeq</code> returns another function، which
+            <p>This function <code>intSeq</code> returns another function, which
 we define anonymously in the body of <code>intSeq</code>. The
 returned function <em>closes over</em> the variable <code>i</code> to
 form a closure.</p>
@@ -97,9 +97,9 @@ form a closure.</p>
         
         <tr>
           <td class="docs">
-            <p>We call <code>intSeq</code>، assigning the result (a function)
+            <p>We call <code>intSeq</code>, assigning the result (a function)
 to <code>nextInt</code>. This function value captures its
-own <code>i</code> value، which will be updated each time
+own <code>i</code> value, which will be updated each time
 we call <code>nextInt</code>.</p>
 
           </td>
@@ -130,7 +130,7 @@ a few times.</p>
         <tr>
           <td class="docs">
             <p>To confirm that the state is unique to that
-particular function، create and test a new one.</p>
+particular function, create and test a new one.</p>
 
           </td>
           <td class="code">

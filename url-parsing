@@ -75,9 +75,9 @@ Here&rsquo;s how to parse URLs in Go.</p>
         
         <tr>
           <td class="docs">
-            <p>We&rsquo;ll parse this example URL، which includes a
-scheme، authentication info، host، port، path،
-query params، and query fragment.</p>
+            <p>We&rsquo;ll parse this example URL, which includes a
+scheme, authentication info, host, port, path,
+query params, and query fragment.</p>
 
           </td>
           <td class="code leading">
@@ -137,7 +137,7 @@ values.</p>
         
         <tr>
           <td class="docs">
-            <p>The <code>Host</code> contains both the hostname and the port،
+            <p>The <code>Host</code> contains both the hostname and the port,
 if present. Use <code>SplitHostPort</code> to extract them.</p>
 
           </td>
@@ -169,10 +169,10 @@ the <code>#</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>To get query params in a string of <code>k=v</code> format،
+            <p>To get query params in a string of <code>k=v</code> format,
 use <code>RawQuery</code>. You can also parse query params
 into a map. The parsed query param maps are from
-strings to slices of strings، so index into <code>[0]</code>
+strings to slices of strings, so index into <code>[0]</code>
 if you only want the first value.</p>
 
           </td>

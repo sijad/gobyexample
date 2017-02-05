@@ -128,7 +128,7 @@ branches.</p>
         <tr>
           <td class="docs">
             <p>Note that you don&rsquo;t need parentheses around conditions
-in Go، but that the braces are required.</p>
+in Go, but that the braces are required.</p>
 
           </td>
           <td class="code empty">
@@ -159,7 +159,7 @@ in Go، but that the braces are required.</p>
         <tr>
           <td class="docs">
             <p>There is no <a href="http://en.wikipedia.org/wiki/%3F:">ternary if</a>
-in Go، so you&rsquo;ll need to use a full <code>if</code> statement even
+in Go, so you&rsquo;ll need to use a full <code>if</code> statement even
 for basic conditions.</p>
 
           </td>
