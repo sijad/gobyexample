@@ -91,7 +91,7 @@ it a lot below.</p>
           <td class="docs">
             <p>Here&rsquo;s a sample of the functions available in
 <code>strings</code>. Note that these are all functions from
-package، not methods on the string object itself.
+package, not methods on the string object itself.
 This means that we need pass the string in question
 as the first argument to the function.</p>
 

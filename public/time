@@ -90,8 +90,8 @@ here are some examples.</p>
         <tr>
           <td class="docs">
             <p>You can build a <code>time</code> struct by providing the
-year، month، day، etc. Times are always associated
-with a <code>Location</code>، i.e. time zone.</p>
+year, month, day, etc. Times are always associated
+with a <code>Location</code>, i.e. time zone.</p>
 
           </td>
           <td class="code leading">
@@ -140,9 +140,9 @@ value as expected.</p>
         
         <tr>
           <td class="docs">
-            <p>These methods compare two times، testing if the
-first occurs before، after، or at the same time
-as the second، respectively.</p>
+            <p>These methods compare two times, testing if the
+first occurs before, after, or at the same time
+as the second, respectively.</p>
 
           </td>
           <td class="code leading">
@@ -190,7 +190,7 @@ various units.</p>
         <tr>
           <td class="docs">
             <p>You can use <code>Add</code> to advance a time by a given
-duration، or with a <code>-</code> to move backwards by a
+duration, or with a <code>-</code> to move backwards by a
 duration.</p>
 
           </td>

@@ -25,12 +25,12 @@
         
         <tr>
           <td class="docs">
-            <p>اولین برنامه که جمله &#8221;hello world&#8220; را نمایش می‌دهد.
-کل سورس برنامه اینجا قرار دارد.</p>
+            <p>اولین برنامه جمله تاریخی &ldquo;سلام دنیا&rdquo; را چاپ
+می‌کند. کل برنامه همین چند خط هست.</p>
 
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/hlIssyTKjU"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/lif4INNtTM"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -56,7 +56,7 @@
           <td class="code">
 	        
             <div class="highlight"><pre><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;hello world&quot;</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;سلام دنیا&quot;</span><span class="p">)</span>
 <span class="p">}</span>
 </pre></div>
 

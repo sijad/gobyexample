@@ -26,7 +26,7 @@
         <tr>
           <td class="docs">
             <p>Sometimes we&rsquo;ll want to sort a collection by something
-other than its natural order. For example، suppose we
+other than its natural order. For example, suppose we
 wanted to sort strings by their length instead of
 alphabetically. Here&rsquo;s an example of custom sorts
 in Go.</p>
@@ -65,7 +65,7 @@ in Go.</p>
         
         <tr>
           <td class="docs">
-            <p>In order to sort by a custom function in Go، we need a
+            <p>In order to sort by a custom function in Go, we need a
 corresponding type. Here we&rsquo;ve created a <code>ByLength</code>
 type that is just an alias for the builtin <code>[]string</code>
 type.</p>
@@ -81,12 +81,12 @@ type.</p>
         
         <tr>
           <td class="docs">
-            <p>We implement <code>sort.Interface</code> - <code>Len</code>، <code>Less</code>، and
+            <p>We implement <code>sort.Interface</code> - <code>Len</code>, <code>Less</code>, and
 <code>Swap</code> - on our type so we can use the <code>sort</code> package&rsquo;s
 generic <code>Sort</code> function. <code>Len</code> and <code>Swap</code>
 will usually be similar across types and <code>Less</code> will
 hold the actual custom sorting logic. In our case we
-want to sort in order of increasing string length، so
+want to sort in order of increasing string length, so
 we use <code>len(s[i])</code> and <code>len(s[j])</code> here.</p>
 
           </td>
@@ -108,9 +108,9 @@ we use <code>len(s[i])</code> and <code>len(s[j])</code> here.</p>
         
         <tr>
           <td class="docs">
-            <p>With all of this in place، we can now implement our
+            <p>With all of this in place, we can now implement our
 custom sort by casting the original <code>fruits</code> slice to
-<code>ByLength</code>، and then use <code>sort.Sort</code> on that typed
+<code>ByLength</code>, and then use <code>sort.Sort</code> on that typed
 slice.</p>
 
           </td>
@@ -133,7 +133,7 @@ slice.</p>
         <tr>
           <td class="docs">
             <p>Running our program shows a list sorted by string
-length، as desired.</p>
+length, as desired.</p>
 
           </td>
           <td class="code leading">
@@ -148,9 +148,9 @@ length، as desired.</p>
         <tr>
           <td class="docs">
             <p>By following this same pattern of creating a custom
-type، implementing the three <code>Interface</code> methods on that
-type، and then calling sort.Sort on a collection of that
-custom type، we can sort Go slices by arbitrary
+type, implementing the three <code>Interface</code> methods on that
+type, and then calling sort.Sort on a collection of that
+custom type, we can sort Go slices by arbitrary
 functions.</p>
 
           </td>

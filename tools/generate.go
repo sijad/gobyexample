@@ -3,6 +3,7 @@ package main
 import (
     "crypto/sha1"
     "fmt"
+    "github.com/russross/blackfriday"
     "io/ioutil"
     "net/http"
     "os"
@@ -11,8 +12,6 @@ import (
     "regexp"
     "strings"
     "text/template"
-
-    "github.com/russross/blackfriday"
 )
 
 var cacheDir = "/tmp/gobyexample-cache"
@@ -78,18 +77,15 @@ func cachedPygmentize(lex string, src string) string {
         return string(cacheBytes)
     }
     renderBytes := pipe(pygmentizeBin, arg, src)
-    writeErr := ioutil.WriteFile(cachePath, renderBytes, 0600)
+    // Newer versions of Pygments add silly empty spans.
+    renderCleanString := strings.Replace(string(renderBytes), "<span></span>", "", -1)
+    writeErr := ioutil.WriteFile(cachePath, []byte(renderCleanString), 0600)
     check(writeErr)
-    return string(renderBytes)
+    return renderCleanString
 }
 
 func markdown(src string) string {
-    dist := string(blackfriday.MarkdownCommon([]byte(src)))
-    replaces := map[string]string{"&rdquo;": "&#8220;", "&ldquo;": "&#8221;", ",": "،", "?": "؟"}
-    for old, new := range replaces {
-        dist = strings.Replace(dist, old, new, -1)
-    }
-    return dist
+    return string(blackfriday.MarkdownCommon([]byte(src)))
 }
 
 func readLines(path string) []string {
@@ -120,7 +116,6 @@ func debug(msg string) {
 }
 
 var docsPat = regexp.MustCompile("^\\s*(\\/\\/|#)\\s")
-var todoPat = regexp.MustCompile("\\/\\/ todo: ")
 var dashPat = regexp.MustCompile("\\-+")
 
 type Seg struct {
@@ -163,9 +158,6 @@ func parseSegs(sourcePath string) ([]*Seg, string) {
     for _, line := range lines {
         if line == "" {
             lastSeen = ""
-            continue
-        }
-        if todoPat.MatchString(line) {
             continue
         }
         matchDocs := docsPat.MatchString(line)

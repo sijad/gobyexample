@@ -26,7 +26,7 @@
         <tr>
           <td class="docs">
             <p>Go has built-in support for <em>multiple return values</em>.
-This feature is used often in idiomatic Go، for example
+This feature is used often in idiomatic Go, for example
 to return both result and error values from a function.</p>
 
           </td>
@@ -62,7 +62,7 @@ to return both result and error values from a function.</p>
         
         <tr>
           <td class="docs">
-            <p>The <code>(int، int)</code> in this function signature shows that
+            <p>The <code>(int, int)</code> in this function signature shows that
 the function returns 2 <code>int</code>s.</p>
 
           </td>
@@ -106,17 +106,29 @@ call with <em>multiple assignment</em>.</p>
         
         <tr>
           <td class="docs">
-            <p>If you only want a subset of the returned values،
+            <p>If you only want a subset of the returned values,
 use the blank identifier <code>_</code>.</p>
 
           </td>
-          <td class="code">
+          <td class="code leading">
 	        
             <div class="highlight"><pre>    <span class="nx">_</span><span class="p">,</span> <span class="nx">c</span> <span class="o">:=</span> <span class="nx">vals</span><span class="p">()</span>
     <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
 <span class="p">}</span>
 </pre></div>
 
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="docs">
+            <p>todo: named return parameters
+todo: naked returns</p>
+
+          </td>
+          <td class="code empty">
+	        
+            
           </td>
         </tr>
         

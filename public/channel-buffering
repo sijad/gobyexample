@@ -25,7 +25,7 @@
         
         <tr>
           <td class="docs">
-            <p>By default channels are <em>unbuffered</em>، meaning that they
+            <p>By default channels are <em>unbuffered</em>, meaning that they
 will only accept sends (<code>chan &lt;-</code>) if there is a
 corresponding receive (<code>&lt;- chan</code>) ready to receive the
 sent value. <em>Buffered channels</em> accept a limited
@@ -91,7 +91,7 @@ those values.</p>
         
         <tr>
           <td class="docs">
-            <p>Because this channel is buffered، we can send these
+            <p>Because this channel is buffered, we can send these
 values into the channel without a corresponding
 concurrent receive.</p>
 

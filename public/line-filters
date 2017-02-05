@@ -26,7 +26,7 @@
         <tr>
           <td class="docs">
             <p>A <em>line filter</em> is a common type of program that reads
-input on stdin، processes it، and then prints some
+input on stdin, processes it, and then prints some
 derived result to stdout. <code>grep</code> and <code>sed</code> are common
 line filters.</p>
 
@@ -99,7 +99,7 @@ the next line in the default scanner.</p>
         
         <tr>
           <td class="docs">
-            <p><code>Text</code> returns the current token، here the next line،
+            <p><code>Text</code> returns the current token, here the next line,
 from the input.</p>
 
           </td>
@@ -161,7 +161,7 @@ expected and not reported by <code>Scan</code> as an error.</p>
         
         <tr>
           <td class="docs">
-            <p>To try out our line filter، first make a file with a few
+            <p>To try out our line filter, first make a file with a few
 lowercase lines.</p>
 
           </td>

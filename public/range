@@ -95,7 +95,7 @@ Arrays work like this too.</p>
           <td class="docs">
             <p><code>range</code> on arrays and slices provides both the
 index and value for each entry. Above we didn&rsquo;t
-need the index، so we ignored it with the
+need the index, so we ignored it with the
 blank identifier <code>_</code>. Sometimes we actually want
 the indexes though.</p>
 

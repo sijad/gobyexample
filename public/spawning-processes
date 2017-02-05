@@ -25,8 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p>Sometimes our Go programs need to spawn other، non-Go
-processes. For example، the syntax highlighting on this
+            <p>Sometimes our Go programs need to spawn other, non-Go
+processes. For example, the syntax highlighting on this
 site is <a href="https://github.com/mmcgrana/gobyexample/blob/master/tools/generate.go">implemented</a>
 by spawning a <a href="http://pygments.org/"><code>pygmentize</code></a>
 process from a Go program. Let&rsquo;s look at a few examples
@@ -96,8 +96,8 @@ to represent this external process.</p>
         <tr>
           <td class="docs">
             <p><code>.Output</code> is another helper that handles the common
-case of running a command، waiting for it to finish،
-and collecting its output. If there were no errors،
+case of running a command, waiting for it to finish,
+and collecting its output. If there were no errors,
 <code>dateOut</code> will hold bytes with the date info.</p>
 
           </td>
@@ -131,9 +131,9 @@ where we pipe data to the external process on its
         
         <tr>
           <td class="docs">
-            <p>Here we explicitly grab input/output pipes، start
-the process، write some input to it، read the
-resulting output، and finally wait for the process
+            <p>Here we explicitly grab input/output pipes, start
+the process, write some input to it, read the
+resulting output, and finally wait for the process
 to exit.</p>
 
           </td>
@@ -153,10 +153,10 @@ to exit.</p>
         
         <tr>
           <td class="docs">
-            <p>We ommited error checks in the above example، but
+            <p>We ommited error checks in the above example, but
 you could use the usual <code>if err != nil</code> pattern for
 all of them. We also only collect the <code>StdoutPipe</code>
-results، but you could collect the <code>StderrPipe</code> in
+results, but you could collect the <code>StderrPipe</code> in
 exactly the same way.</p>
 
           </td>
@@ -173,9 +173,9 @@ exactly the same way.</p>
           <td class="docs">
             <p>Note that when spawning commands we need to
 provide an explicitly delineated command and
-argument array، vs. being able to just pass in one
+argument array, vs. being able to just pass in one
 command-line string. If you want to spawn a full
-command with a string، you can use <code>bash</code>&rsquo;s <code>-c</code>
+command with a string, you can use <code>bash</code>&rsquo;s <code>-c</code>
 option:</p>
 
           </td>

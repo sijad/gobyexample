@@ -25,8 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p>Go انواع مختلفی مقادیر شامل string،
-integer، float، boolean،&hellip; را دارد. اینجا تعدادی
+            <p>Go انواع مختلفی مقادیر شامل string,
+integer, float, boolean,&hellip; را دارد. اینجا تعدادی
 مثال ساده آورده شده است.</p>
 
           </td>
@@ -74,7 +74,7 @@ integer، float، boolean،&hellip; را دارد. اینجا تعدادی
         
         <tr>
           <td class="docs">
-            <p>String، که می‌توانند بوسیله عملگر <code>+</code> به‌هم افزوده شوند.</p>
+            <p>String, که می‌توانند بوسیله عملگر <code>+</code> به‌هم افزوده شوند.</p>
 
           </td>
           <td class="code leading">

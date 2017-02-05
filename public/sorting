@@ -77,7 +77,7 @@ builtins first.</p>
           <td class="docs">
             <p>Sort methods are specific to the builtin type;
 here&rsquo;s an example for strings. Note that sorting is
-in-place، so it changes the given slice and doesn&rsquo;t
+in-place, so it changes the given slice and doesn&rsquo;t
 return a new one.</p>
 
           </td>
