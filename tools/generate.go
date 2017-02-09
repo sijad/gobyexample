@@ -277,6 +277,7 @@ func renderExamples(examples []*Example) {
 }
 
 func main() {
+    copyFile("CNAME", siteDir+"/CNAME")
     copyFile("templates/site.css", siteDir+"/site.css")
     copyFile("templates/favicon.ico", siteDir+"/favicon.ico")
     copyFile("templates/404.html", siteDir+"/404.html")
