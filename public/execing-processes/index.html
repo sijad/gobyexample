@@ -3,20 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Exec'ing Processes</title>
-    <link rel=stylesheet href="site.css">
+    <link rel=stylesheet href="../site.css">
   </head>
-  <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-34996217-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    }
-  </script>
   <body>
     <div class="example" id="execing-processes">
       <h2><a href="./">Go by Example</a>: Exec'ing Processes</h2>
@@ -37,7 +25,7 @@ function.</p>
 
           </td>
           <td class="code empty leading">
-	        
+          
             
           </td>
         </tr>
@@ -47,7 +35,7 @@ function.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/neqdJ51KLN"><img title="Run code" src="play.png" class="run" /></a>
+          <a href="http://play.golang.org/p/neqdJ51KLN"><img title="Run code" src="../play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -59,7 +47,7 @@ function.</p>
             
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="kn">import</span> <span class="s">&quot;syscall&quot;</span>
 <span class="kn">import</span> <span class="s">&quot;os&quot;</span>
 <span class="kn">import</span> <span class="s">&quot;os/exec&quot;</span>
@@ -73,7 +61,7 @@ function.</p>
             
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
 </pre></div>
 
@@ -89,7 +77,7 @@ we&rsquo;ll use <code>exec.LookPath</code> to find it (probably
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">binary</span><span class="p">,</span> <span class="nx">lookErr</span> <span class="o">:=</span> <span class="nx">exec</span><span class="p">.</span><span class="nx">LookPath</span><span class="p">(</span><span class="s">&quot;ls&quot;</span><span class="p">)</span>
     <span class="k">if</span> <span class="nx">lookErr</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="nb">panic</span><span class="p">(</span><span class="nx">lookErr</span><span class="p">)</span>
@@ -108,7 +96,7 @@ be the program name.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">args</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span><span class="s">&quot;ls&quot;</span><span class="p">,</span> <span class="s">&quot;-a&quot;</span><span class="p">,</span> <span class="s">&quot;-l&quot;</span><span class="p">,</span> <span class="s">&quot;-h&quot;</span><span class="p">}</span>
 </pre></div>
 
@@ -123,7 +111,7 @@ environment.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">env</span> <span class="o">:=</span> <span class="nx">os</span><span class="p">.</span><span class="nx">Environ</span><span class="p">()</span>
 </pre></div>
 
@@ -140,7 +128,7 @@ value.</p>
 
           </td>
           <td class="code">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">execErr</span> <span class="o">:=</span> <span class="nx">syscall</span><span class="p">.</span><span class="nx">Exec</span><span class="p">(</span><span class="nx">binary</span><span class="p">,</span> <span class="nx">args</span><span class="p">,</span> <span class="nx">env</span><span class="p">)</span>
     <span class="k">if</span> <span class="nx">execErr</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="nb">panic</span><span class="p">(</span><span class="nx">execErr</span><span class="p">)</span>
@@ -161,7 +149,7 @@ value.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="gp">$</span> go run execing-processes.go
 <span class="go">total 16</span>
 <span class="go">drwxr-xr-x  4 mark 136B Oct 3 16:29 .</span>
@@ -181,7 +169,7 @@ processes covers most use cases for <code>fork</code>.</p>
 
           </td>
           <td class="code empty">
-	        
+          
             
           </td>
         </tr>
@@ -190,7 +178,7 @@ processes covers most use cases for <code>fork</code>.</p>
       
       
       <p class="next">
-        مثال بعد: <a href="signals">Signals</a>.
+        مثال بعد: <a href="../signals/">Signals</a>.
       </p>
       
       <p class="footer">

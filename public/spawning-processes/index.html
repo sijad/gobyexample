@@ -3,20 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Go by Example: Spawning Processes</title>
-    <link rel=stylesheet href="site.css">
+    <link rel=stylesheet href="../site.css">
   </head>
-  <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-34996217-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    }
-  </script>
   <body>
     <div class="example" id="spawning-processes">
       <h2><a href="./">Go by Example</a>: Spawning Processes</h2>
@@ -34,7 +22,7 @@ of spawning processes from Go.</p>
 
           </td>
           <td class="code empty leading">
-	        
+          
             
           </td>
         </tr>
@@ -44,7 +32,7 @@ of spawning processes from Go.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/y6SB6Mf2VQ"><img title="Run code" src="play.png" class="run" /></a>
+          <a href="http://play.golang.org/p/y6SB6Mf2VQ"><img title="Run code" src="../play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -56,7 +44,7 @@ of spawning processes from Go.</p>
             
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="kn">import</span> <span class="s">&quot;fmt&quot;</span>
 <span class="kn">import</span> <span class="s">&quot;io/ioutil&quot;</span>
 <span class="kn">import</span> <span class="s">&quot;os/exec&quot;</span>
@@ -70,7 +58,7 @@ of spawning processes from Go.</p>
             
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
 </pre></div>
 
@@ -86,7 +74,7 @@ to represent this external process.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">dateCmd</span> <span class="o">:=</span> <span class="nx">exec</span><span class="p">.</span><span class="nx">Command</span><span class="p">(</span><span class="s">&quot;date&quot;</span><span class="p">)</span>
 </pre></div>
 
@@ -102,7 +90,7 @@ and collecting its output. If there were no errors,
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">dateOut</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">dateCmd</span><span class="p">.</span><span class="nx">Output</span><span class="p">()</span>
     <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="nb">panic</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span>
@@ -122,7 +110,7 @@ where we pipe data to the external process on its
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">grepCmd</span> <span class="o">:=</span> <span class="nx">exec</span><span class="p">.</span><span class="nx">Command</span><span class="p">(</span><span class="s">&quot;grep&quot;</span><span class="p">,</span> <span class="s">&quot;hello&quot;</span><span class="p">)</span>
 </pre></div>
 
@@ -138,7 +126,7 @@ to exit.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">grepIn</span><span class="p">,</span> <span class="nx">_</span> <span class="o">:=</span> <span class="nx">grepCmd</span><span class="p">.</span><span class="nx">StdinPipe</span><span class="p">()</span>
     <span class="nx">grepOut</span><span class="p">,</span> <span class="nx">_</span> <span class="o">:=</span> <span class="nx">grepCmd</span><span class="p">.</span><span class="nx">StdoutPipe</span><span class="p">()</span>
     <span class="nx">grepCmd</span><span class="p">.</span><span class="nx">Start</span><span class="p">()</span>
@@ -161,7 +149,7 @@ exactly the same way.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;&gt; grep hello&quot;</span><span class="p">)</span>
     <span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nb">string</span><span class="p">(</span><span class="nx">grepBytes</span><span class="p">))</span>
 </pre></div>
@@ -180,7 +168,7 @@ option:</p>
 
           </td>
           <td class="code">
-	        
+          
             <div class="highlight"><pre>    <span class="nx">lsCmd</span> <span class="o">:=</span> <span class="nx">exec</span><span class="p">.</span><span class="nx">Command</span><span class="p">(</span><span class="s">&quot;bash&quot;</span><span class="p">,</span> <span class="s">&quot;-c&quot;</span><span class="p">,</span> <span class="s">&quot;ls -a -l -h&quot;</span><span class="p">)</span>
     <span class="nx">lsOut</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">lsCmd</span><span class="p">.</span><span class="nx">Output</span><span class="p">()</span>
     <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
@@ -205,7 +193,7 @@ as if we had run them directly from the command-line.</p>
 
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="gp">$</span> go run spawning-processes.go 
 <span class="gp">&gt;</span> date
 <span class="go">Wed Oct 10 09:53:11 PDT 2012</span>
@@ -219,7 +207,7 @@ as if we had run them directly from the command-line.</p>
             
           </td>
           <td class="code leading">
-	        
+          
             <div class="highlight"><pre><span class="gp">&gt;</span> grep hello
 <span class="go">hello grep</span>
 </pre></div>
@@ -232,7 +220,7 @@ as if we had run them directly from the command-line.</p>
             
           </td>
           <td class="code">
-	        
+          
             <div class="highlight"><pre><span class="gp">&gt;</span> ls -a -l -h
 <span class="go">drwxr-xr-x  4 mark 136B Oct 3 16:29 .</span>
 <span class="go">drwxr-xr-x 91 mark 3.0K Oct 3 12:50 ..</span>
@@ -246,7 +234,7 @@ as if we had run them directly from the command-line.</p>
       
       
       <p class="next">
-        مثال بعد: <a href="execing-processes">Exec'ing Processes</a>.
+        مثال بعد: <a href="../execing-processes/">Exec'ing Processes</a>.
       </p>
       
       <p class="footer">
