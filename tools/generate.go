@@ -215,36 +215,37 @@ func parseAndRenderSegs(sourcePath string) ([]*Seg, string) {
 }
 
 func parseExamples() []*Example {
-    exampleNames := readLines("examples.txt")
+    exampleLines := readLines("examples.txt")
     examples := make([]*Example, 0)
-    for _, exampleName := range exampleNames {
-        if (exampleName != "") && !strings.HasPrefix(exampleName, "#") {
-            example := Example{Name: exampleName}
-            exampleId := strings.ToLower(exampleName)
-            exampleId = strings.Replace(exampleId, " ", "-", -1)
-            exampleId = strings.Replace(exampleId, "/", "-", -1)
-            exampleId = strings.Replace(exampleId, "'", "", -1)
-            exampleId = dashPat.ReplaceAllString(exampleId, "-")
-            example.Id = exampleId
-            example.Segs = make([][]*Seg, 0)
-            sourcePaths := mustGlob("examples/" + exampleId + "/*")
-            for _, sourcePath := range sourcePaths {
-                if strings.HasSuffix(sourcePath, ".hash") {
-                    example.GoCodeHash, example.UrlHash = parseHashFile(sourcePath)
-                } else {
-                    sourceSegs, filecontents := parseAndRenderSegs(sourcePath)
-                    if filecontents != "" {
-                        example.GoCode = filecontents
-                    }
-                    example.Segs = append(example.Segs, sourceSegs)
-                }
-            }
-            newCodeHash := sha1Sum(example.GoCode)
-            if example.GoCodeHash != newCodeHash {
-                example.UrlHash = resetUrlHashFile(newCodeHash, example.GoCode, "examples/"+example.Id+"/"+example.Id+".hash")
-            }
-            examples = append(examples, &example)
+    for _, exampleLine := range exampleLines {
+        if exampleLine == "" {
+            continue
         }
+        splittedLine := strings.Split(exampleLine, ":")
+        exampleId := splittedLine[0]
+        exampleName := splittedLine[1]
+        example := Example{
+            Name: exampleName,
+            Id:   exampleId,
+            Segs: make([][]*Seg, 0),
+        }
+        sourcePaths := mustGlob("examples/" + exampleId + "/*")
+        for _, sourcePath := range sourcePaths {
+            if strings.HasSuffix(sourcePath, ".hash") {
+                example.GoCodeHash, example.UrlHash = parseHashFile(sourcePath)
+            } else {
+                sourceSegs, filecontents := parseAndRenderSegs(sourcePath)
+                if filecontents != "" {
+                    example.GoCode = filecontents
+                }
+                example.Segs = append(example.Segs, sourceSegs)
+            }
+        }
+        newCodeHash := sha1Sum(example.GoCode)
+        if example.GoCodeHash != newCodeHash {
+            example.UrlHash = resetUrlHashFile(newCodeHash, example.GoCode, "examples/"+example.Id+"/"+example.Id+".hash")
+        }
+        examples = append(examples, &example)
     }
     for i, example := range examples {
         if i < (len(examples) - 1) {
